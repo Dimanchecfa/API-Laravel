@@ -28,3 +28,11 @@ Route::post('/me', [AuthController::class, 'me'])->middleware('auth:sanctum');
 
 
 Route::apiResource('student', StudentController::class);
+
+
+
+    
+
+
+    //
+
